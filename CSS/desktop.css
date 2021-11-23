@@ -1,0 +1,115 @@
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: 1rem;
+  }
+  nav ul {
+    display: flex;
+    place-content: space-around;
+    background: #333;
+    color: #fff;
+    background-image: none;
+    font-size: 1rem;
+    height: 20%;
+    padding: 1% 0;
+    margin-top: 2%;
+  }
+  nav ul li a {
+    display: flex;
+    padding: 0%;
+    text-align: center;
+  }
+  .reach-out,
+  .get,
+  .menu,
+  .sign-up {
+    display: none;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  .cash {
+    font-size: 3rem;
+    margin-top: -8%;
+  }
+  .bunch {
+    padding: 3% 5% 5% 5%;
+    font-size: 2rem;
+    margin: 0% -5.5%;
+  }
+
+  .used-items,
+  .money {
+    border-radius: 5%;
+    margin-left: 5%;
+    width: 400px;
+  }
+  .mock-up {
+    width: 80%;
+    place-content: center;
+  }
+  .money {
+    left: 15%;
+  }
+  .arrow {
+    right: 5px;
+  }
+  .meet {
+    margin-top: 10%;
+  }
+  .image {
+    width: 400px;
+  }
+  .illustration {
+    margin-top: 5%;
+    width: 80%;
+  }
+  .start {
+    margin-top: 3%;
+  }
+  .urgent {
+    padding: 2% 3%;
+    width: 60%;
+  }
+  .request {
+    width: 70%;
+  }
+  .mark {
+    margin-top: 0%;
+    padding-left: 10%;
+  }
+  .privacy,
+  .radar {
+    margin: 10%;
+  }
+
+  .radar1 {
+    padding: 0;
+    margin-right: 10%;
+    margin-top: 5%;
+  }
+  form input,
+  form button {
+    line-height: 15mm;
+    padding: 0 5%;
+    border-radius: 40px;
+  }
+  form input {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    color: #333;
+    font-style: italic;
+    padding-right: 15%;
+  }
+  form button {
+    top: 5px;
+    right: 60px;
+    font-size: 2rem;
+  }
+  form {
+    margin-top: -5%;
+  }
+  footer {
+    margin-top: -8%;
+  }
+}
