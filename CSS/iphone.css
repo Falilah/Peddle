@@ -31,7 +31,7 @@ header {
   /* display: none; */
   background: #fff;
   height: 100%;
-  background-image: url("/Assets/29\ Topographic\ Map\ 1.png");
+  background-image: url("/Assets/Topographic\ Map.svg");
   background-size: cover;
   font-size: 1rem;
   padding-bottom: 5rem;
@@ -67,7 +67,7 @@ header {
 main {
   padding-top: 1.5rem;
   background: #84d3f2;
-  background-image: url("/Assets/29\ Topographic\ Map\ 1.png");
+  background-image: url("/Assets/Topographic\ Map.svg");
   background-size: cover;
 }
 
