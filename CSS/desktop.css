@@ -1,21 +1,44 @@
 @media only screen and (min-width: 600px) {
+  .col2 {
+    margin-top: 0.5rem;
+  }
+  .urgent {
+    place-content: center;
+    padding: 2% 3%;
+    width: 60%;
+    margin: 0 5rem;
+    margin-top: 25rem;
+  }
+  .request {
+    width: 70%;
+  }
+  .mark {
+    margin-top: 0%;
+    padding-left: 10%;
+  }
+
+  form {
+    width: 60%;
+    margin-left: 5rem;
+  }
+}
+@media only screen and (min-width: 900px) {
   body {
     font-size: 1rem;
   }
-  nav ul {
+  .nav-bar {
     display: flex;
     place-content: space-around;
     background: #333;
-    color: #fff;
     background-image: none;
-    font-size: 1rem;
-    height: 20%;
-    padding: 1% 0;
-    margin-top: 2%;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
   }
-  nav ul li a {
+  .media {
     display: flex;
     padding: 0%;
+    color: #fff;
+
     text-align: center;
   }
   .reach-out,
@@ -24,58 +47,64 @@
   .sign-up {
     display: none;
   }
+  .cover {
+    width: 80%;
+    margin-left: 5rem;
+  }
   h3 {
     font-size: 3rem;
   }
   .cash {
     font-size: 3rem;
-    margin-top: -8%;
+    margin-top: 0;
   }
   .bunch {
-    padding: 3% 5% 5% 5%;
+    padding: 1rem 3rem 4rem 3rem;
     font-size: 2rem;
-    margin: 0% -5.5%;
   }
-
+  .mockup {
+    width: 100%;
+    margin-top: -2rem;
+    border-radius: 0;
+  }
   .used-items,
   .money {
     border-radius: 5%;
     margin-left: 5%;
     width: 400px;
   }
-  .mock-up {
-    width: 80%;
-    place-content: center;
-  }
   .money {
-    left: 15%;
+    top: 15rem;
+    left: 12rem;
   }
   .arrow {
-    right: 5px;
+    left: 30rem;
+    top: 8rem;
   }
   .meet {
-    margin-top: 10%;
+    top: 35rem;
+    margin: 0 5rem;
   }
   .image {
     width: 400px;
+    right: 20rem;
+  }
+  .ever {
+    width: 40%;
   }
   .illustration {
-    margin-top: 5%;
+    top: 35rem;
     width: 80%;
+    margin: 0 5rem;
+  }
+  .dollar {
+    margin-top: 5rem;
   }
   .start {
     margin-top: 3%;
   }
   .urgent {
-    padding: 2% 3%;
-    width: 60%;
-  }
-  .request {
-    width: 70%;
-  }
-  .mark {
-    margin-top: 0%;
-    padding-left: 10%;
+    margin-top: 35rem;
   }
   .privacy,
   .radar {
@@ -87,13 +116,13 @@
     margin-right: 10%;
     margin-top: 5%;
   }
-  form input,
-  form button {
+  .mail,
+  .reach {
     line-height: 15mm;
     padding: 0 5%;
     border-radius: 40px;
   }
-  form input {
+  .mail {
     position: relative;
     z-index: 1;
     background: #fff;
@@ -101,13 +130,11 @@
     font-style: italic;
     padding-right: 15%;
   }
-  form button {
-    top: 5px;
-    right: 60px;
-    font-size: 2rem;
-  }
+
   form {
+    margin: 0 5rem;
     margin-top: -5%;
+    width: 60%;
   }
   footer {
     margin-top: -8%;
