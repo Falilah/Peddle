@@ -28,7 +28,7 @@ header {
 }
 
 .nav-bar {
-  /* display: none; */
+  display: none;
   background: #fff;
   height: 100%;
   background-image: url("/Assets/Topographic\ Map.svg");
@@ -38,6 +38,9 @@ header {
 }
 .li {
   list-style-type: none;
+}
+.fab {
+  padding-right: 1rem;
 }
 .media {
   color: #333;
